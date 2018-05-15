@@ -213,3 +213,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# Don't include build folder by default
+build/
+.sass-cache/

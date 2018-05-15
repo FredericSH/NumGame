@@ -1,10 +1,11 @@
 .button {
   background: lightblue;
+  padding: 10px;
   cursor: pointer;
 }
 
 .button:hover {
-	background: darken(lightblue, 20%);
+	background: darken(lightblue, 10%);
 }
 
 .wrapper {
@@ -21,7 +22,7 @@
 
 .main {
   text-align: left;
-  background: green;
+  background: lightgreen;
 }
 
 .controlPanel {
@@ -37,7 +38,7 @@
 }
 
 @media all and (min-width: 800px) {
-  .main    { flex: 3 0px; }
+  .main    { flex: 10 0px; }
   .main    { order: 1; }
   .controlPanel { order: 2; }
 }
@@ -70,7 +71,7 @@ body {
 }
 
 .menuBar a:hover {
-	background: darken(deepskyblue, 20%);
+	background: darken(deepskyblue, 10%);
 }
 
 @media all and (max-width: 800px) {
