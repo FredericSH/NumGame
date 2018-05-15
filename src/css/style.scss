@@ -1,3 +1,15 @@
+.draggable {
+  position: absolute;
+}
+
+.cell {
+  height: 90px;
+  width: 90px;
+  background-color: orangered;
+  border-style: solid;
+  border-width: 5px;
+}
+
 .button {
   background: lightblue;
   padding: 10px;
@@ -38,7 +50,7 @@
 }
 
 @media all and (min-width: 800px) {
-  .main    { flex: 10 0px; }
+  .main    { flex: 15 0px; }
   .main    { order: 1; }
   .controlPanel { order: 2; }
 }
